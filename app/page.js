@@ -1,14 +1,20 @@
-import Page from "./week-3/page";
-//import StudentInfo from "./week-2/StudentInfo";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div>
-      {/*<h1>CPRG 306: Web Development 2 - Assignments</h1>
-      <StudentInfo />*/}
-
-      <h1>CPRG 306: Web Development 3 - Assignments</h1>
-      <Page />
+      <h1>CPRG 306: Web Development - Assignments</h1>
+      <ul>
+        <li>
+          <Link href="./week-2">Week two assginment</Link>
+        </li>
+        <li>
+          <Link href="./week-3">Week Three assginment</Link>
+        </li>
+        <li>
+          <Link href="./week-4">Week Four assginment</Link>
+        </li>
+      </ul>
     </div>
   );
 }
