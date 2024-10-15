@@ -28,7 +28,9 @@ export default function NewItem() {
       <button
         className="bg-blue-600 text-white rounded py-2 px-4 mt-5 mr-2 hover:bg-blue-400 active:bg-yellow-500 disabled:bg-gray-400"
         onClick={() => decrement()}
-      ></button>
+      >
+        -
+      </button>
     </div>
   );
 }
